@@ -6,7 +6,7 @@
 version: 2
 updates:
   # Enable version updates for Docker
-  - package-ecosystem: "npm"
+  - package-ecosystem: "docker"
     # Look for a `Dockerfile` in the `root` directory
     directory: "/"
     # Check for updates once a week
